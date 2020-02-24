@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Test View 4"
+    name="Test view 4"
     id="3a99cbe1-ce67-4533-9f52-7323a487d314">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -27,7 +27,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="f0a091a9-9f61-41e7-935e-77b6937283d0">
+      id="f0a091a9-9f61-41e7-935e-77b6937283d0"
+      targetConnections="facfb94f-8ea1-4adc-be4f-70c58ae87a09">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="4df48448-f310-450c-b175-e4c6167f00c9"
@@ -69,5 +70,21 @@
         y="100"
         width="185"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelReference"
+      id="16290b99-735e-4048-bfc9-82cb51bd49f4">
+    <sourceConnections
+        id="facfb94f-8ea1-4adc-be4f-70c58ae87a09"
+        source="16290b99-735e-4048-bfc9-82cb51bd49f4"
+        target="f0a091a9-9f61-41e7-935e-77b6937283d0"/>
+    <bounds
+        x="360"
+        y="225"
+        width="120"
+        height="55"/>
+    <referencedModel
+        xsi:type="archimate:ArchimateDiagramModel"
+        href="ArchimateDiagramModel_d6ec736f-1ab3-4b1c-95d9-7964c7d141f3.xml#d6ec736f-1ab3-4b1c-95d9-7964c7d141f3"/>
   </children>
 </archimate:ArchimateDiagramModel>
