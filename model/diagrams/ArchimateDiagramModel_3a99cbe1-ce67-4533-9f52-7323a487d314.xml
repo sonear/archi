@@ -5,10 +5,20 @@
     id="3a99cbe1-ce67-4533-9f52-7323a487d314">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="0014fc6b-0af6-4116-b136-8846f32a784d">
+      id="0014fc6b-0af6-4116-b136-8846f32a784d"
+      targetConnections="4df48448-f310-450c-b175-e4c6167f00c9">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="53fe1eb3-0e4b-4aeb-b001-948051e09bf1"
+        source="0014fc6b-0af6-4116-b136-8846f32a784d"
+        target="40aec157-9729-41c4-a2e5-f9ee6687bab3">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_b45824c7-b443-4089-8c01-e7485cdbc1a8.xml#b45824c7-b443-4089-8c01-e7485cdbc1a8"/>
+    </sourceConnections>
     <bounds
-        x="310"
-        y="157"
+        x="210"
+        y="135"
         width="120"
         height="55"/>
     <archimateElement
@@ -18,9 +28,18 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="f0a091a9-9f61-41e7-935e-77b6937283d0">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="4df48448-f310-450c-b175-e4c6167f00c9"
+        source="f0a091a9-9f61-41e7-935e-77b6937283d0"
+        target="0014fc6b-0af6-4116-b136-8846f32a784d">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_bd355cb2-3cc4-4387-988d-6ebaca276e96.xml#bd355cb2-3cc4-4387-988d-6ebaca276e96"/>
+    </sourceConnections>
     <bounds
-        x="224"
-        y="320"
+        x="150"
+        y="225"
         width="120"
         height="55"/>
     <archimateElement
@@ -29,7 +48,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="40aec157-9729-41c4-a2e5-f9ee6687bab3">
+      id="40aec157-9729-41c4-a2e5-f9ee6687bab3"
+      targetConnections="53fe1eb3-0e4b-4aeb-b001-948051e09bf1">
     <bounds
         x="225"
         y="52"
@@ -43,10 +63,10 @@
       xsi:type="archimate:DiagramModelNote"
       id="4572126b-419e-4746-a547-647b6f724836"
       textAlignment="1"
-      content="lkdfj;asdlfkjs;ldfkj;sldfkjsa;dlk">
+      content="lkdfj;asdlfkjs;ldfkj;sldfkjsa;dlk&#xA;&#xA;and other stuff too">
     <bounds
-        x="190"
-        y="399"
+        x="385"
+        y="100"
         width="185"
         height="80"/>
   </children>
