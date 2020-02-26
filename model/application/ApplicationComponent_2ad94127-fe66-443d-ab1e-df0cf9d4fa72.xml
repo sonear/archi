@@ -1,4 +1,6 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="application 3"
-    id="2ad94127-fe66-443d-ab1e-df0cf9d4fa72"/>
+    id="2ad94127-fe66-443d-ab1e-df0cf9d4fa72">
+  <properties/>
+</archimate:ApplicationComponent>
